@@ -8,13 +8,6 @@
   <link rel="icon" href="https://qycloudreve.s.odn.cc/f/XDZfr/novaskin-wallpaper-insummer%20%281%29.jpg" type="image/x-icon">
     <title>文件下载中心</title>
     <style>
-        /*
-         页面样式（CSS）说明：
-         - .blur-container: 页面主要的毛玻璃容器
-         - .file-grid / .file-card: 文件列表网格及每个文件卡片样式
-         - .download-status: 固定的下载状态提示框
-         这些注释用于帮助维护和快速定位样式含义。
-        */
         * {
             margin: 0;
             padding: 0;
@@ -459,26 +452,25 @@
     </div>
     
     <script>
-        /* -----------------------------
-           脚本说明（JavaScript）
-           - `files`：页面展示的文件元数据数组
-           - `fileIcons`：按类型映射的 SVG 图标字符串
-           - DOM 查询变量：缓存常用节点，提升性能
-           - `renderFiles()`：根据搜索与筛选渲染文件卡片
-           - `downloadFile()`：触发浏览器下载（通过创建链接）
-           - 事件监听器：处理搜索输入、筛选、下载按钮及返回按钮
-           ----------------------------- */
-
         // 文件数据（示例：可扩展或从后端加载）
         const files = [
           {
                 id: 1,
-                name: "服务器地图.mcworld",
+                name: "QYServer材质缓存包_v1.0_20251209.mcaddon",
                 type: "archive",
-                size: "3.1 GB",
-                date: "2025-08-30",
-                desc: "服务器备份地图",
-                url: "https://qycloudreve.s.odn.cc/f/d/OoRfP/qyserver.mcworld"
+                size: "60MB",
+                date: "2025-12-09",
+                desc: "QYServer材质缓存包",
+                url: "/QYServer材质缓存包_v1.0_20251209.mcaddon"
+            },
+          {
+                id: 2,
+                name: "Minecraft_1.21.94_v8a_共存.apk",
+                type: "archive",
+                size: "0.3GB",
+                date: "2025-12-09",
+                desc: "Minecraft_1.21.94_v8a_共存<br>文件仅供娱乐或测试请在下载后24小时内删除",
+                url: "/Minecraft_1.21.94_v8a_共存.apk"
             }
         ];
 
