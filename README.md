@@ -1,5 +1,8 @@
 # File-Download-Center
-文件下载中心
+
+# 文件下载中心
+
+[点击前往演示站点](http://qyserverd.wofrp.net/ "点击前往演示站点")
 
 ## 1. 添加新文件教程
 
@@ -42,3 +45,4 @@ Word文档	document	绿色-青绿渐变
 
 其他文件	other	蓝色-紫色渐变
 
+###### 大部分代码由AI辅助生成请注意
